@@ -23,7 +23,7 @@ const HomePage = () => {
             backgroundSize: "100% 100%",
           }}
         >
-          <button className="h-[50px] rounded-[5px] bg-[#000000] p-[10px] text-[20px] text-[#d56303]">
+          <button className="hover:scale-x-110 hover:scale-y-110 transform duration-500 h-[50px] rounded-[5px] bg-[#000000] p-[10px] text-[20px] text-[#d56303]" onClick={()=>router.push('https://www.youtube.com/live/SDzfa5zZrkA')}>
             WATCH STREAM
           </button>
         </div>
